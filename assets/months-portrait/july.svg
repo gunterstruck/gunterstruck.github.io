@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" role="img" aria-label="Juli - Hochsommer Portrait">
+  <defs>
+    <linearGradient id="julyPortraitSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fef3c7;stop-opacity:0.5" />
+      <stop offset="30%" style="stop-color:#fde68a;stop-opacity:0.3" />
+      <stop offset="60%" style="stop-color:#7dd3fc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#38bdf8;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="sunGlowJuly" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#fef08a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#fde047;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#fbbf24;stop-opacity:0.3" />
+    </radialGradient>
+  </defs>
+
+  <rect width="600" height="800" fill="url(#julyPortraitSky)"/>
+
+  <!-- Brennende Sonne -->
+  <circle cx="300" cy="90" r="90" fill="url(#sunGlowJuly)" opacity="0.4"/>
+  <circle cx="300" cy="90" r="75" fill="#fde047" opacity="0.7"/>
+  <circle cx="300" cy="90" r="62" fill="#fef08a"/>
+
+  <!-- Sonnenstrahlen -->
+  <line x1="300" y1="5" x2="300" y2="-5" stroke="#fbbf24" stroke-width="7" opacity="0.7"/>
+  <line x1="410" y1="90" x2="440" y2="90" stroke="#fbbf24" stroke-width="7" opacity="0.7"/>
+  <line x1="190" y1="90" x2="160" y2="90" stroke="#fbbf24" stroke-width="7" opacity="0.7"/>
+  <line x1="377" y1="28" x2="400" y2="5" stroke="#fbbf24" stroke-width="6" opacity="0.7"/>
+  <line x1="223" y1="28" x2="200" y2="5" stroke="#fbbf24" stroke-width="6" opacity="0.7"/>
+  <line x1="377" y1="152" x2="400" y2="175" stroke="#fbbf24" stroke-width="6" opacity="0.7"/>
+  <line x1="223" y1="152" x2="200" y2="175" stroke="#fbbf24" stroke-width="6" opacity="0.7"/>
+
+  <!-- Sonnenblumenfeld -->
+  <rect x="0" y="550" width="600" height="250" fill="#65a30d"/>
+  <ellipse cx="300" cy="580" rx="450" ry="65" fill="#84cc16"/>
+
+  <!-- Sonnenblumen (groß) -->
+  <g>
+    <!-- Sonnenblume links -->
+    <circle cx="120" cy="620" r="42" fill="#fbbf24"/>
+    <circle cx="120" cy="620" r="22" fill="#92400e"/>
+    <rect x="117" y="662" width="6" height="88" fill="#15803d"/>
+    <ellipse cx="105" cy="690" rx="18" ry="8" fill="#15803d" transform="rotate(-25 105 690)"/>
+    <ellipse cx="135" cy="695" rx="18" ry="8" fill="#15803d" transform="rotate(25 135 695)"/>
+
+    <!-- Sonnenblume Mitte -->
+    <circle cx="300" cy="640" r="48" fill="#fbbf24"/>
+    <circle cx="300" cy="640" r="26" fill="#92400e"/>
+    <rect x="297" y="688" width="6" height="100" fill="#15803d"/>
+    <ellipse cx="280" cy="720" rx="20" ry="10" fill="#15803d" transform="rotate(-30 280 720)"/>
+    <ellipse cx="320" cy="725" rx="20" ry="10" fill="#15803d" transform="rotate(30 320 725)"/>
+
+    <!-- Sonnenblume rechts -->
+    <circle cx="480" cy="630" r="45" fill="#fbbf24"/>
+    <circle cx="480" cy="630" r="24" fill="#92400e"/>
+    <rect x="477" y="675" width="6" height="95" fill="#15803d"/>
+    <ellipse cx="462" cy="705" rx="19" ry="9" fill="#15803d" transform="rotate(-28 462 705)"/>
+    <ellipse cx="498" cy="710" rx="19" ry="9" fill="#15803d" transform="rotate(28 498 710)"/>
+  </g>
+
+  <!-- Weitere kleinere Sonnenblumen -->
+  <g>
+    <circle cx="220" cy="665" r="28" fill="#fbbf24"/>
+    <circle cx="220" cy="665" r="15" fill="#92400e"/>
+    <rect x="218" y="693" width="4" height="60" fill="#15803d"/>
+
+    <circle cx="410" cy="670" r="30" fill="#fbbf24"/>
+    <circle cx="410" cy="670" r="16" fill="#92400e"/>
+    <rect x="408" y="700" width="4" height="65" fill="#15803d"/>
+
+    <circle cx="70" cy="690" r="26" fill="#fbbf24"/>
+    <circle cx="70" cy="690" r="14" fill="#92400e"/>
+    <rect x="68" y="716" width="4" height="55" fill="#15803d"/>
+
+    <circle cx="530" cy="685" r="27" fill="#fbbf24"/>
+    <circle cx="530" cy="685" r="14" fill="#92400e"/>
+    <rect x="528" y="712" width="4" height="58" fill="#15803d"/>
+  </g>
+
+  <!-- Bauernhaus (klein im Hintergrund) -->
+  <rect x="450" y="500" width="120" height="90" fill="#c85542"/>
+  <polygon points="510,455 435,500 585,500" fill="#8b5433"/>
+  <rect x="473" y="518" width="24" height="28" fill="#ffd98e"/>
+  <rect x="484" y="518" width="2" height="28" fill="#6b4423"/>
+  <rect x="473" y="531" width="24" height="2" fill="#6b4423"/>
+  <rect x="521" y="518" width="24" height="28" fill="#ffd98e"/>
+  <rect x="532" y="518" width="2" height="28" fill="#6b4423"/>
+  <rect x="521" y="531" width="24" height="2" fill="#6b4423"/>
+  <rect x="495" y="555" width="26" height="35" fill="#6a4a30"/>
+
+  <!-- Biene -->
+  <g transform="translate(350, 450)">
+    <ellipse cx="0" cy="0" rx="10" ry="6" fill="#fbbf24"/>
+    <line x1="-5" y1="0" x2="-5" y2="0" stroke="#000000" stroke-width="2"/>
+    <line x1="0" y1="0" x2="0" y2="0" stroke="#000000" stroke-width="2"/>
+    <line x1="5" y1="0" x2="5" y2="0" stroke="#000000" stroke-width="2"/>
+    <ellipse cx="-8" cy="-3" rx="6" ry="3" fill="#e0f2fe" opacity="0.7" transform="rotate(-30 -8 -3)"/>
+    <ellipse cx="8" cy="-3" rx="6" ry="3" fill="#e0f2fe" opacity="0.7" transform="rotate(30 8 -3)"/>
+  </g>
+
+  <!-- Schmetterling -->
+  <g transform="translate(180, 520)">
+    <ellipse cx="-6" cy="0" rx="10" ry="14" fill="#f97316" transform="rotate(-24 -6 0)"/>
+    <ellipse cx="6" cy="0" rx="10" ry="14" fill="#f97316" transform="rotate(24 6 0)"/>
+    <ellipse cx="-6" cy="11" rx="7" ry="11" fill="#fb923c" transform="rotate(-20 -6 11)"/>
+    <ellipse cx="6" cy="11" rx="7" ry="11" fill="#fb923c" transform="rotate(20 6 11)"/>
+    <line x1="0" y1="-6" x2="0" y2="17" stroke="#000000" stroke-width="1.8"/>
+  </g>
+
+  <!-- Vögel -->
+  <path d="M 90 250 Q 105 245 120 250" stroke="#4a5a6a" stroke-width="2.5" fill="none"/>
+  <path d="M 520 280 Q 535 275 550 280" stroke="#4a5a6a" stroke-width="2.5" fill="none"/>
+
+  <!-- Emoji-Dekoration -->
+  <text x="255" y="105" font-size="48" opacity="0.5">☀️</text>
+  <text x="95" y="650" font-size="42" opacity="0.85">🌻</text>
+  <text x="265" y="675" font-size="46" opacity="0.9">🌻</text>
+  <text x="445" y="665" font-size="44" opacity="0.85">🌻</text>
+  <text x="320" y="465" font-size="26" opacity="0.75">🐝</text>
+  <text x="150" y="535" font-size="26" opacity="0.75">🦋</text>
+  <text x="75" y="265" font-size="20" opacity="0.6">🐦</text>
+</svg>

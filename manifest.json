@@ -1,0 +1,98 @@
+{
+  "id": "/",
+  "name": "Monatskalender mit Türchen",
+  "short_name": "Türchenkalender",
+  "version": "1.6.6",
+  "description": "Entdecken Sie jeden Tag eine neue historische Lebensweisheit mit dem Monatskalender mit Türchen. Diese Progressive Web App bietet Ihnen monatliche Türchen im Adventskalender-Stil mit inspirierenden Zitaten berühmter Persönlichkeiten aus allen Epochen. Perfekt für tägliche Motivation und Inspiration.",
+  "start_url": "/Kalender/",
+  "scope": "/Kalender/",
+  "display": "standalone",
+  "background_color": "#1e5a8e",
+  "theme_color": "#FFB84D",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "assets/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "assets/icons/app_icon_192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/app_icon_512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/icon-1024.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["lifestyle", "entertainment", "utilities"],
+  "screenshots": [
+    {
+      "src": "assets/screenshots/screen-1.jpg",
+      "sizes": "1080x2400",
+      "type": "image/jpeg",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "assets/screenshots/screen-2.jpg",
+      "sizes": "1080x2400",
+      "type": "image/jpeg",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "assets/screen-wide-1.jpg",
+      "sizes": "1920x1080",
+      "type": "image/jpeg",
+      "form_factor": "wide"
+    },
+    {
+      "src": "assets/screen-wide-2.jpg",
+      "sizes": "1920x1080",
+      "type": "image/jpeg",
+      "form_factor": "wide"
+    },
+    {
+      "src": "assets/screen-wide-3.jpg",
+      "sizes": "1920x1080",
+      "type": "image/jpeg",
+      "form_factor": "wide"
+    }
+  ],
+  "lang": "de-DE",
+  "dir": "ltr"
+}

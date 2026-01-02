@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" role="img" aria-label="November - Nebel Portrait">
+  <defs>
+    <linearGradient id="novemberPortraitSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#64748b;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#94a3b8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#cbd5e1;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="800" fill="url(#novemberPortraitSky)"/>
+
+  <!-- Nebelschichten -->
+  <ellipse cx="300" cy="400" rx="480" ry="120" fill="#f1f5f9" opacity="0.5"/>
+  <ellipse cx="150" cy="450" rx="380" ry="95" fill="#e2e8f0" opacity="0.6"/>
+  <ellipse cx="450" cy="480" rx="350" ry="88" fill="#f8fafc" opacity="0.55"/>
+  <ellipse cx="300" cy="550" rx="420" ry="100" fill="#f1f5f9" opacity="0.65"/>
+
+  <!-- Hügel im Nebel -->
+  <ellipse cx="300" cy="600" rx="450" ry="95" fill="#94a3b8" opacity="0.7"/>
+  <ellipse cx="150" cy="620" rx="280" ry="75" fill="#64748b" opacity="0.6"/>
+  <ellipse cx="450" cy="610" rx="260" ry="78" fill="#78909c" opacity="0.65"/>
+
+  <!-- Boden -->
+  <rect x="0" y="650" width="600" height="150" fill="#64748b"/>
+  <ellipse cx="300" cy="710" rx="450" ry="80" fill="#78909c" opacity="0.7"/>
+
+  <!-- Kahle Bäume (Silhouetten) -->
+  <g opacity="0.8">
+    <!-- Baum links -->
+    <rect x="90" y="520" width="10" height="190" fill="#475569"/>
+    <line x1="95" y1="540" x2="75" y2="510" stroke="#475569" stroke-width="5"/>
+    <line x1="95" y1="560" x2="70" y2="545" stroke="#475569" stroke-width="4"/>
+    <line x1="95" y1="580" x2="73" y2="570" stroke="#475569" stroke-width="4"/>
+    <line x1="95" y1="540" x2="115" y2="520" stroke="#475569" stroke-width="5"/>
+    <line x1="95" y1="565" x2="118" y2="555" stroke="#475569" stroke-width="4"/>
+    <line x1="95" y1="590" x2="112" y2="582" stroke="#475569" stroke-width="4"/>
+
+    <!-- Baum Mitte -->
+    <rect x="297" y="480" width="12" height="240" fill="#475569"/>
+    <line x1="303" y1="500" x2="280" y2="475" stroke="#475569" stroke-width="6"/>
+    <line x1="303" y1="530" x2="275" y2="510" stroke="#475569" stroke-width="5"/>
+    <line x1="303" y1="560" x2="278" y2="545" stroke="#475569" stroke-width="5"/>
+    <line x1="303" y1="505" x2="326" y2="485" stroke="#475569" stroke-width="6"/>
+    <line x1="303" y1="540" x2="330" y2="525" stroke="#475569" stroke-width="5"/>
+    <line x1="303" y1="575" x2="325" y2="562" stroke="#475569" stroke-width="5"/>
+
+    <!-- Baum rechts -->
+    <rect x="505" y="540" width="9" height="180" fill="#475569"/>
+    <line x1="509" y1="560" x2="490" y2="535" stroke="#475569" stroke-width="4"/>
+    <line x1="509" y1="585" x2="492" y2="570" stroke="#475569" stroke-width="4"/>
+    <line x1="509" y1="565" x2="527" y2="548" stroke="#475569" stroke-width="4"/>
+    <line x1="509" y1="595" x2="525" y2="585" stroke="#475569" stroke-width="4"/>
+  </g>
+
+  <!-- Bauernhaus (verschwommen im Nebel) -->
+  <g opacity="0.7">
+    <rect x="420" y="580" width="140" height="120" fill="#a16207"/>
+    <polygon points="490,530 405,580 575,580" fill="#854d0e"/>
+    <rect x="445" y="602" width="28" height="32" fill="#78350f" opacity="0.8"/>
+    <rect x="495" y="602" width="28" height="32" fill="#78350f" opacity="0.8"/>
+    <rect x="469" y="650" width="32" height="50" fill="#6a4a30" opacity="0.8"/>
+  </g>
+
+  <!-- Laub am Boden -->
+  <g opacity="0.6">
+    <ellipse cx="200" cy="720" rx="45" ry="18" fill="#92400e"/>
+    <ellipse cx="380" cy="730" rx="50" ry="20" fill="#a16207"/>
+    <ellipse cx="520" cy="725" rx="42" ry="17" fill="#78350f"/>
+  </g>
+
+  <!-- Vögel (ziehend, kaum sichtbar) -->
+  <g opacity="0.5">
+    <path d="M 150 280 Q 165 275 180 280" stroke="#475569" stroke-width="2.5" fill="none"/>
+    <path d="M 170 305 Q 185 300 200 305" stroke="#475569" stroke-width="2.5" fill="none"/>
+    <path d="M 190 255 Q 205 250 220 255" stroke="#475569" stroke-width="2.5" fill="none"/>
+  </g>
+
+  <!-- Laternen (warm im Nebel) -->
+  <g>
+    <rect x="246" y="610" width="5" height="55" fill="#6a4a30"/>
+    <rect x="244" y="608" width="9" height="5" fill="#6a4a30"/>
+    <rect x="240" y="596" width="17" height="14" fill="#3a2a1a" opacity="0.8"/>
+    <rect x="242" y="598" width="13" height="10" fill="#ffd700" opacity="0.9"/>
+    <ellipse cx="248.5" cy="603" rx="24" ry="18" fill="#ffeb99" opacity="0.4"/>
+  </g>
+
+  <!-- Emoji-Dekoration -->
+  <text x="260" y="440" font-size="42" opacity="0.5">🌫️</text>
+  <text x="65" y="600" font-size="36" opacity="0.65">🍂</text>
+  <text x="175" y="745" font-size="28" opacity="0.55">🍁</text>
+  <text x="355" y="755" font-size="28" opacity="0.55">🍂</text>
+  <text x="135" y="295" font-size="20" opacity="0.45">🐦</text>
+  <text x="170" y="150" font-size="32" opacity="0.5">☁️</text>
+  <text x="450" y="620" font-size="30" opacity="0.4">🌳</text>
+  <text x="50" y="330" font-size="26" opacity="0.6">💨</text>
+</svg>

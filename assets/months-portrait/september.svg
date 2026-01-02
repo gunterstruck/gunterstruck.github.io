@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" role="img" aria-label="September - Herbstbeginn Portrait">
+  <defs>
+    <linearGradient id="septemberPortraitSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fed7aa;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#fdba74;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fb923c;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="800" fill="url(#septemberPortraitSky)"/>
+
+  <!-- Herbstsonne (tief stehend) -->
+  <circle cx="520" cy="110" r="75" fill="#fef08a" opacity="0.5"/>
+  <circle cx="520" cy="110" r="60" fill="#fde047" opacity="0.7"/>
+  <circle cx="520" cy="110" r="48" fill="#fef08a"/>
+
+  <!-- Hügel -->
+  <ellipse cx="300" cy="550" rx="400" ry="82" fill="#92400e" opacity="0.5"/>
+  <ellipse cx="150" cy="570" rx="240" ry="68" fill="#a16207" opacity="0.5"/>
+
+  <!-- Wiese (herbstlich) -->
+  <rect x="0" y="650" width="600" height="150" fill="#854d0e"/>
+  <ellipse cx="300" cy="710" rx="450" ry="90" fill="#713f12" opacity="0.6"/>
+
+  <!-- Herbstbaum links (orange/rot) -->
+  <rect x="60" y="450" width="42" height="260" fill="#78350f"/>
+  <circle cx="81" cy="410" r="105" fill="#fb923c" opacity="0.9"/>
+  <circle cx="40" cy="375" r="82" fill="#f97316" opacity="0.9"/>
+  <circle cx="122" cy="380" r="88" fill="#ea580c" opacity="0.9"/>
+  <circle cx="48" cy="435" r="75" fill="#fb923c" opacity="0.85"/>
+  <circle cx="114" cy="440" r="80" fill="#dc2626" opacity="0.85"/>
+
+  <!-- Herbstbaum rechts (golden) -->
+  <rect x="480" y="480" width="38" height="240" fill="#78350f"/>
+  <circle cx="499" cy="450" r="95" fill="#fbbf24" opacity="0.9"/>
+  <circle cx="465" cy="420" r="75" fill="#fde047" opacity="0.9"/>
+  <circle cx="533" cy="425" r="80" fill="#f59e0b" opacity="0.9"/>
+  <circle cx="472" cy="470" r="68" fill="#fbbf24" opacity="0.85"/>
+  <circle cx="526" cy="475" r="72" fill="#fb923c" opacity="0.85"/>
+
+  <!-- Bauernhaus (zentral) -->
+  <rect x="230" y="460" width="160" height="145" fill="#c85542"/>
+  <polygon points="310,395 210,460 410,460" fill="#8b5433"/>
+  <path d="M 210,460 Q 270,437 310,433 Q 350,437 410,460" fill="#ffffff" opacity="0.4"/>
+  <rect x="255" y="482" width="34" height="40" fill="#ffd98e"/>
+  <rect x="271" y="482" width="2" height="40" fill="#6b4423"/>
+  <rect x="255" y="501" width="34" height="2" fill="#6b4423"/>
+  <rect x="311" y="482" width="34" height="40" fill="#ffd98e"/>
+  <rect x="327" y="482" width="2" height="40" fill="#6b4423"/>
+  <rect x="311" y="501" width="34" height="2" fill="#6b4423"/>
+  <rect x="283" y="555" width="44" height="50" fill="#6a4a30"/>
+
+  <!-- Fallende Herbstblätter -->
+  <g>
+    <ellipse cx="180" cy="300" rx="13" ry="18" fill="#fbbf24" transform="rotate(30 180 300)"/>
+    <line x1="180" y1="300" x2="185" y2="313" stroke="#f59e0b" stroke-width="2"/>
+
+    <ellipse cx="350" cy="350" rx="12" ry="17" fill="#fb923c" transform="rotate(-25 350 350)"/>
+    <line x1="350" y1="350" x2="356" y2="362" stroke="#f97316" stroke-width="1.8"/>
+
+    <ellipse cx="450" cy="420" rx="14" ry="19" fill="#f59e0b" transform="rotate(40 450 420)"/>
+    <line x1="450" y1="420" x2="444" y2="434" stroke="#d97706" stroke-width="2"/>
+
+    <ellipse cx="270" cy="520" rx="13" ry="18" fill="#ea580c" transform="rotate(-18 270 520)"/>
+    <line x1="270" y1="520" x2="276" y2="533" stroke="#c2410c" stroke-width="1.8"/>
+
+    <ellipse cx="120" cy="580" rx="12" ry="17" fill="#fde047" transform="rotate(45 120 580)"/>
+    <line x1="120" y1="580" x2="114" y2="592" stroke="#fbbf24" stroke-width="1.8"/>
+
+    <ellipse cx="520" cy="560" rx="13" ry="18" fill="#dc2626" transform="rotate(-30 520 560)"/>
+    <line x1="520" y1="560" x2="526" y2="573" stroke="#b91c1c" stroke-width="2"/>
+  </g>
+
+  <!-- Laubhaufen am Boden -->
+  <ellipse cx="350" cy="720" rx="65" ry="32" fill="#ea580c" opacity="0.85"/>
+  <ellipse cx="340" cy="715" rx="58" ry="28" fill="#fb923c" opacity="0.85"/>
+  <ellipse cx="360" cy="718" rx="60" ry="30" fill="#f97316" opacity="0.85"/>
+
+  <!-- Drachen (am Himmel) -->
+  <g transform="translate(400, 240)">
+    <polygon points="0,-25 -18,0 0,25 18,0" fill="#ef4444"/>
+    <line x1="0" y1="25" x2="-8" y2="50" stroke="#3b82f6" stroke-width="2"/>
+    <line x1="0" y1="25" x2="0" y2="80" stroke="#3b82f6" stroke-width="2"/>
+    <circle cx="-8" cy="55" r="3" fill="#fbbf24"/>
+    <circle cx="0" cy="68" r="3" fill="#22c55e"/>
+    <circle cx="0" cy="85" r="3" fill="#f97316"/>
+  </g>
+
+  <!-- Vögel (ziehend) -->
+  <path d="M 250 190 Q 265 185 280 190" stroke="#78350f" stroke-width="2.5" fill="none"/>
+  <path d="M 270 215 Q 285 210 300 215" stroke="#78350f" stroke-width="2.5" fill="none"/>
+  <path d="M 290 175 Q 305 170 320 175" stroke="#78350f" stroke-width="2.5" fill="none"/>
+
+  <!-- Emoji-Dekoration -->
+  <text x="480" y="125" font-size="38" opacity="0.6">🌤️</text>
+  <text x="35" y="485" font-size="42" opacity="0.85">🍂</text>
+  <text x="455" y="525" font-size="40" opacity="0.85">🍁</text>
+  <text x="155" y="315" font-size="28" opacity="0.8">🍁</text>
+  <text x="325" y="365" font-size="26" opacity="0.8">🍂</text>
+  <text x="95" y="595" font-size="24" opacity="0.75">🍂</text>
+  <text x="60" y="555" font-size="30" opacity="0.5">🌳</text>
+  <text x="235" y="200" font-size="20" opacity="0.6">🐦</text>
+</svg>

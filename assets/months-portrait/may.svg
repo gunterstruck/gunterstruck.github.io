@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" role="img" aria-label="Mai - Blütenpracht Portrait">
+  <defs>
+    <linearGradient id="mayPortraitSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#7dd3fc;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#38bdf8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0ea5e9;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="800" fill="url(#mayPortraitSky)"/>
+
+  <!-- Strahlende Sonne -->
+  <circle cx="110" cy="110" r="80" fill="#fef08a" opacity="0.5"/>
+  <circle cx="110" cy="110" r="65" fill="#fde047" opacity="0.8"/>
+  <circle cx="110" cy="110" r="52" fill="#fef08a"/>
+
+  <!-- Sonnenstrahlen -->
+  <line x1="110" y1="30" x2="110" y2="5" stroke="#fbbf24" stroke-width="6" opacity="0.6"/>
+  <line x1="190" y1="110" x2="215" y2="110" stroke="#fbbf24" stroke-width="6" opacity="0.6"/>
+  <line x1="170" y1="58" x2="192" y2="36" stroke="#fbbf24" stroke-width="5" opacity="0.6"/>
+  <line x1="170" y1="162" x2="192" y2="184" stroke="#fbbf24" stroke-width="5" opacity="0.6"/>
+  <line x1="50" y1="58" x2="28" y2="36" stroke="#fbbf24" stroke-width="5" opacity="0.6"/>
+  <line x1="50" y1="162" x2="28" y2="184" stroke="#fbbf24" stroke-width="5" opacity="0.6"/>
+
+  <!-- Blumenwiese -->
+  <ellipse cx="300" cy="730" rx="460" ry="105" fill="#22c55e"/>
+  <rect x="0" y="640" width="600" height="160" fill="#22c55e"/>
+  <ellipse cx="200" cy="680" rx="220" ry="48" fill="#4ade80" opacity="0.9"/>
+  <ellipse cx="420" cy="695" rx="200" ry="45" fill="#4ade80" opacity="0.9"/>
+
+  <!-- Bauernhaus mit Maifest -->
+  <rect x="210" y="440" width="180" height="155" fill="#c85542"/>
+  <polygon points="300,365 190,440 410,440" fill="#8b5433"/>
+  <path d="M 190,440 Q 255,418 300,414 Q 345,418 410,440" fill="#ffffff" opacity="0.4"/>
+  <rect x="240" y="465" width="35" height="42" fill="#ffd98e"/>
+  <rect x="257" y="465" width="2" height="42" fill="#6b4423"/>
+  <rect x="240" y="485" width="35" height="2" fill="#6b4423"/>
+  <rect x="305" y="465" width="35" height="42" fill="#ffd98e"/>
+  <rect x="322" y="465" width="2" height="42" fill="#6b4423"/>
+  <rect x="305" y="485" width="35" height="2" fill="#6b4423"/>
+  <rect x="268" y="540" width="44" height="55" fill="#6a4a30"/>
+  <circle cx="302" cy="568" r="3" fill="#d4a020"/>
+
+  <!-- Maipfahl (zentral) -->
+  <rect x="448" y="580" width="8" height="140" fill="#78350f"/>
+  <rect x="450" y="582" width="4" height="136" fill="#92400e"/>
+  <!-- Bunte Bänder am Maibaum -->
+  <path d="M 452 590 Q 420 610 415 630" stroke="#ef4444" stroke-width="4" fill="none"/>
+  <path d="M 452 595 Q 485 615 490 635" stroke="#3b82f6" stroke-width="4" fill="none"/>
+  <path d="M 452 600 Q 430 625 425 645" stroke="#fbbf24" stroke-width="4" fill="none"/>
+  <path d="M 452 605 Q 475 630 480 650" stroke="#22c55e" stroke-width="4" fill="none"/>
+  <circle cx="452" cy="575" r="12" fill="#fbbf24"/>
+  <circle cx="452" cy="575" r="8" fill="#fde047"/>
+
+  <!-- Blumen überall -->
+  <g>
+    <!-- Mohn -->
+    <circle cx="90" cy="685" r="10" fill="#ef4444"/>
+    <circle cx="90" cy="685" r="5" fill="#000000" opacity="0.8"/>
+    <line x1="90" y1="695" x2="90" y2="725" stroke="#15803d" stroke-width="3"/>
+    <circle cx="125" cy="690" r="10" fill="#dc2626"/>
+    <circle cx="125" cy="690" r="5" fill="#000000" opacity="0.8"/>
+    <line x1="125" y1="700" x2="125" y2="730" stroke="#15803d" stroke-width="3"/>
+
+    <!-- Kornblumen -->
+    <circle cx="470" cy="695" r="9" fill="#3b82f6"/>
+    <line x1="470" y1="704" x2="470" y2="732" stroke="#15803d" stroke-width="2.5"/>
+    <circle cx="505" cy="688" r="9" fill="#60a5fa"/>
+    <line x1="505" y1="697" x2="505" y2="725" stroke="#15803d" stroke-width="2.5"/>
+
+    <!-- Gänseblümchen -->
+    <circle cx="280" cy="700" r="8" fill="#ffffff"/>
+    <circle cx="280" cy="700" r="4" fill="#fbbf24"/>
+    <line x1="280" y1="708" x2="280" y2="730" stroke="#15803d" stroke-width="2.5"/>
+    <circle cx="320" cy="705" r="8" fill="#ffffff"/>
+    <circle cx="320" cy="705" r="4" fill="#fbbf24"/>
+    <line x1="320" y1="713" x2="320" y2="735" stroke="#15803d" stroke-width="2.5"/>
+  </g>
+
+  <!-- Blühender Baum -->
+  <rect x="70" y="470" width="38" height="250" fill="#78350f"/>
+  <circle cx="89" cy="440" r="95" fill="#f0abfc" opacity="0.85"/>
+  <circle cx="50" cy="405" r="75" fill="#fae8ff" opacity="0.85"/>
+  <circle cx="128" cy="410" r="80" fill="#f0abfc" opacity="0.85"/>
+  <circle cx="60" cy="460" r="68" fill="#fae8ff" opacity="0.8"/>
+  <circle cx="118" cy="465" r="72" fill="#f0abfc" opacity="0.8"/>
+
+  <!-- Schmetterl inge -->
+  <g transform="translate(380, 420)">
+    <ellipse cx="-6" cy="0" rx="10" ry="15" fill="#f9a8d4" transform="rotate(-25 -6 0)"/>
+    <ellipse cx="6" cy="0" rx="10" ry="15" fill="#f9a8d4" transform="rotate(25 6 0)"/>
+    <ellipse cx="-6" cy="12" rx="7" ry="12" fill="#ec4899" transform="rotate(-20 -6 12)"/>
+    <ellipse cx="6" cy="12" rx="7" ry="12" fill="#ec4899" transform="rotate(20 6 12)"/>
+    <line x1="0" y1="-6" x2="0" y2="18" stroke="#000000" stroke-width="2"/>
+  </g>
+
+  <!-- Vögel -->
+  <path d="M 500 200 Q 515 195 530 200" stroke="#4a5a6a" stroke-width="2.5" fill="none"/>
+  <path d="M 520 225 Q 535 220 550 225" stroke="#4a5a6a" stroke-width="2.5" fill="none"/>
+
+  <!-- Emoji-Dekoration -->
+  <text x="70" y="120" font-size="40" opacity="0.5">☀️</text>
+  <text x="95" y="710" font-size="32" opacity="0.85">🌺</text>
+  <text x="475" y="715" font-size="30" opacity="0.85">🌻</text>
+  <text x="285" y="725" font-size="28" opacity="0.8">🌼</text>
+  <text x="350" y="435" font-size="28" opacity="0.75">🦋</text>
+  <text x="45" y="500" font-size="38" opacity="0.5">🌸</text>
+  <text x="435" y="625" font-size="26" opacity="0.7">🎏</text>
+  <text x="485" y="210" font-size="22" opacity="0.6">🐦</text>
+  <text x="380" y="670" font-size="22" opacity="0.75">🐝</text>
+</svg>
