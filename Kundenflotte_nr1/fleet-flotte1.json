@@ -1,0 +1,23 @@
+{
+  "format": "zanobot-fleet-db",
+  "schemaVersion": "1.0.0",
+  "exportDbVersion": 7,
+  "exportedAt": "2026-03-01T20:28:31.799Z",
+  "fleet": {
+    "name": "Flotte1",
+    "id": "flotte1"
+  },
+  "goldStandardId": null,
+  "machines": [
+    {
+      "id": "2",
+      "name": "M2",
+      "isGoldStandard": false
+    },
+    {
+      "id": "MM86SSEM-4J7L9",
+      "name": "M1",
+      "isGoldStandard": false
+    }
+  ]
+}
